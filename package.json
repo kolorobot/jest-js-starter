@@ -1,0 +1,22 @@
+{
+  "name": "jest-js-template",
+  "version": "1.0.0",
+  "description": "Jest VanillaJS Template",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "author": "Rafał Borowiec <https://blog.codeleak.pl>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/plugin-transform-modules-commonjs": "^7.15.4",
+    "@babel/preset-env": "^7.15.8",
+    "jest": "^27.3.1",
+    "jest-extended": "^1.1.0",
+    "prettier": "^2.4.1"
+  }
+}
